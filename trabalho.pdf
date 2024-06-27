@@ -1,0 +1,41 @@
+Relatório sobre Protocolos de Rede
+
+SSH (Secure Shell)
+Descrição:
+O SSH (Secure Shell) é um protocolo de rede criptográfico usado para operar serviços de rede 
+de forma segura em uma rede não segura. As aplicações mais típicas incluem acesso remoto a 
+sistemas de computadores por usuários.
+Funcionamento:
+O SSH usa criptografia para proteger os dados transmitidos entre o cliente e o servidor. Ele 
+autentica o usuário e o servidor e garante a integridade dos dados.
+Exemplo de Execução no Linux:
+Para conectar-se a um servidor remoto usando SSH:
+ssh user@remote_host
+
+DNS (Domain Name System)
+Descrição:
+O DNS (Domain Name System) é um sistema que traduz nomes de domínio legíveis por 
+humanos (como www.example.com) em endereços IP legíveis por máquinas (como 192.0.2.1).
+Funcionamento:
+Quando você digita um nome de domínio no navegador, um servidor DNS resolve esse nome 
+para o endereço IP correspondente, permitindo a comunicação com o servidor que hospeda o 
+site.
+
+DHCP (Dynamic Host Configuration Protocol)
+Descrição:
+O DHCP (Dynamic Host Configuration Protocol) é um protocolo de rede usado para fornecer 
+automaticamente parâmetros de configuração IP aos dispositivos da rede.
+Funcionamento:
+O servidor DHCP atribui dinamicamente endereços IP a dispositivos quando eles se conectam à 
+rede, evitando conflitos e simplificando a administração da rede.
+
+FTP (File Transfer Protocol)
+Descrição:
+O FTP (File Transfer Protocol) é um protocolo de rede padrão usado para transferir arquivos de 
+um host para outro através de uma rede TCP, como a Internet.
+Funcionamento:
+O FTP opera em um modelo cliente-servidor, onde o cliente inicia a transferência de arquivos 
+para ou do servidor FTP.
+Exemplo de Execução no Linux:
+Para conectar-se a um servidor FTP:
+ftp ftp.example.com
